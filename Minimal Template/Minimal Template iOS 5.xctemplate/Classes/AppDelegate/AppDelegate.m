@@ -7,18 +7,16 @@
 //
 
 #import "AppDelegate.h"
-#import "TestVC.h"
 
 @implementation AppDelegate
 @synthesize window = _window;
-@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    
     _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	_window.backgroundColor = [UIColor whiteColor];
-	_viewController = [[TestVC alloc] init];
-	[_window addSubview:_viewController.view];
+	UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+	UIViewController *vc = [storyboard instantiateInitialViewController];
+	_window.rootViewController = vc;
     [_window makeKeyAndVisible];
 	
 	return YES;
@@ -37,7 +35,6 @@
 }
 
 - (void)dealloc {
-	self.viewController = nil;
 	self.window = nil;
     [super dealloc];
 }
