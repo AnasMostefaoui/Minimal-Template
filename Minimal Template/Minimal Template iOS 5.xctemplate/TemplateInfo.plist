@@ -57,44 +57,43 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Classes/TestVC/TestVC.h</key>
+		<key>Classes/MainVC/MainVC.h</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Classes</string>
-				<string>TestVC</string>
+				<string>MainVC</string>
 			</array>
 			<key>Path</key>
-			<string>Classes/TestVC/TestVC.h</string>
+			<string>Classes/MainVC/MainVC.h</string>
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Classes/TestVC/TestVC.m</key>
+		<key>Classes/MainVC/MainVC.m</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Classes</string>
-				<string>TestVC</string>
+				<string>MainVC</string>
 			</array>
 			<key>Path</key>
-			<string>Classes/TestVC/TestVC.m</string>
+			<string>Classes/MainVC/MainVC.m</string>
 		</dict>
-		<key>Classes/TestVC/Resources/TestVC.xib</key>
+		<key>Classes/Resources/Main.storyboard</key>
 		<dict>
 			<key>Group</key>
 			<array>
 				<string>Classes</string>
-				<string>TestVC</string>
 				<string>Resources</string>
 			</array>
 			<key>Path</key>
-			<string>Classes/TestVC/Resources/TestVC.xib</string>
+			<string>Classes/Resources/Main.storyboard</string>
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>This template provides a starting point for any application. It provides just an application delegate and a window.</string>
+	<string>This template provides a starting point for any application using storyboards (iOS 5 and later). It provides just an application delegate and a window.</string>
 	<key>Identifier</key>
-	<string>com.borealkiss.windowBasedApplication</string>
+	<string>com.borealkiss.MinimalTemplate-iOS5</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
@@ -104,9 +103,9 @@
 		<string>main.m</string>
 		<string>Classes/AppDelegate/AppDelegate.h</string>
 		<string>Classes/AppDelegate/AppDelegate.m</string>
-		<string>Classes/TestVC/TestVC.h</string>
-		<string>Classes/TestVC/TestVC.m</string>
-		<string>Classes/TestVC/Resources/TestVC.xib</string>
+		<string>Classes/MainVC/MainVC.h</string>
+		<string>Classes/MainVC/MainVC.m</string>
+		<string>Classes/Resources/Main.storyboard</string>
 	</array>
 	<key>Targets</key>
 	<array>

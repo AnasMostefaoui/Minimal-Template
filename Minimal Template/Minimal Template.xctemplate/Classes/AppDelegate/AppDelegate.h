@@ -1,5 +1,5 @@
 //
-//  TestVC.h
+//  AppDelegate.h
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-
-@interface TestVC : UIViewController {
-
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
+    UIWindow *_window;
 }
 
+@property (nonatomic, retain) UIWindow *window;
 @end
+

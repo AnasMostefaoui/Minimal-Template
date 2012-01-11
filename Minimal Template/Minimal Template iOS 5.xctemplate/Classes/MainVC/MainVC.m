@@ -1,15 +1,19 @@
 //
-//  TestVC.m
+//  MainVC.m
 //  ___PROJECTNAME___
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
 //
 
-#import "TestVC.h"
+#import "MainVC.h"
 
 
-@implementation TestVC
+@implementation MainVC
+
+-(void)awakeFromNib{
+	[super awakeFromNib];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
